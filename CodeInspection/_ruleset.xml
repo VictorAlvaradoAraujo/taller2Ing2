@@ -15,9 +15,11 @@ Code Inspection Lab, Grupo 1
 <rule ref="category/java/bestpractices.xml">
 <exclude name="SystemPrintln" />
 </rule>
-
+<rule ref="category/java/errorprone.xml/MissingBreakInSwitch" />
+<rule ref="category/java/bestpractices.xml/SystemPrintln" />
 <rule ref="category/java/design.xml/ImmutableField" />
 <rule ref="category/java/design.xml/UseUtilityClass">
+
 <priority>1</priority>
 </rule>
 
